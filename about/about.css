@@ -1,0 +1,28 @@
+#about {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: justify;
+    column-count: 2;
+    column-gap: 30px;
+}
+
+#about h1 {
+    font-size: 60px;
+}
+
+#about p {
+    line-height: 1.4;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#about::after {
+    content: 'SEO';
+    position: fixed; /* Заменим на absolute */
+    font-size: 600px;
+    opacity: 0.05;
+    bottom: 10px;
+    right: 640px;
+}
+

@@ -1,0 +1,39 @@
+
+
+table {
+    width: 100%;
+    max-width: 1000px; /* Пример максимальной ширины */
+    margin: 0 auto; /* Центрирование по горизонтали */
+    border-collapse: collapse;
+    background: linear-gradient(to bottom, #ffd4d4, #ff9a9e);
+}
+
+
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 16px;
+    text-align: center;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+thead th {
+    background: linear-gradient(to bottom, #ff9a9e, #fecfef);
+    color: #4a4a4a;
+}
+
+tfoot td {
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+.checkmark {
+    color: #27ae60;
+    font-size: 24px;
+}
+
+.cross {
+    color: #e74c3c;
+    font-size: 24px;
+}

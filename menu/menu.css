@@ -1,0 +1,58 @@
+.menu {
+    width: 200px;
+    height: 100%;
+    position: fixed; /* заменим fixed на absolute */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.3s;
+    font-size: 18px;
+    z-index: 1;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row; /* Изменяем направление на горизонтальное */
+    justify-content: center;
+}
+
+.menu ul li:last-child {
+    border-bottom: none;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 20px; /* Убираем второе значение для увеличения расстояния между буквами */
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+    text-align: center;
+    writing-mode: vertical-rl; /* Меняем направление на вертикальное справа налево */
+    text-orientation: upright; /* Добавляем это свойство, чтобы буквы были написаны одна под другой */
+    font-weight: bold; /* Делаем буквы жирными */
+}
+
+.menu ul li a:hover {
+    background-color: #555;
+    transform: scale(1.1); /* Увеличиваем элемент при наведении */
+    transition: transform 0.3s; /* Добавляем плавный переход для увеличения */
+}
+
+.menu ul li:nth-child(1) a {
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+}
+
+.menu ul li:nth-child(2) a {
+    background: linear-gradient(to bottom, #90f7ec, #32ccbc);
+}
+
+.menu ul li:nth-child(3) a {
+    background: linear-gradient(to bottom, #ff6e7f, #b47feb);
+}
+
+.menu ul li:nth-child(4) a {
+    background: linear-gradient(to bottom, #b4fe79, #32cc8b);
+}

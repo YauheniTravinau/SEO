@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ffcccc, #cc99ff);
+    color: #fff;
+    animation: changeGradient 10s infinite alternate; /* Добавляем анимацию для изменения цветов градиента */
+    transition: background 1s ease; /* Плавный переход для фона */
+}
+
+/* CSS код линии */
+.gradient-divider {
+    height: 3px; /* Высота линии */
+    width: 50%; /* Ширина линии */
+    background: linear-gradient(to right, #ff7e5f, #feb47b, #90f7ec, #32ccbc, #ff6e7f, #b47feb, #b4fe79, #32cc8b);
+    margin: 20px auto;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
