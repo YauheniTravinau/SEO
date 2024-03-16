@@ -9,3 +9,5 @@ Improve search engine rankings
 Drive organic traffic to your website
 Dominate search results with ease
 Get started today and take control of your online presence!
+
+This website is currently under development, and it's only a demo version. Thank you for your understanding!
